@@ -1,0 +1,34 @@
+https://www.instructables.com/id/Introduction-to-GitHub/
+https://www.instructables.com/id/Introduction-to-GitHub/
+
+#Tell Git who you are
+git config --global user.name "simhon"
+git config --global user.email "xxx@gmail.com"
+
+#Initialize Git Repo
+git init
+
+#Create Repo (Github) with Readme
+
+#Link Github Repo to Git
+git remote add origin https://github.com/<username>/<repo name>.git
+
+#Download Github Repo
+git remote add origin https://github.com/<username>/<repo name>.git
+
+#Add local files
+git add .
+
+#Commit changes to local repo
+git commit -m "initial source commit"
+
+#Upload local changes to Github
+git push origin master
+
+--------------------------------------
+
+git status
+git log
+git checkout
+git branch
+
