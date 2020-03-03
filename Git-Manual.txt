@@ -1,6 +1,5 @@
 https://www.instructables.com/id/Introduction-to-GitHub/
-https://www.neonscience.org/git-setup-remote
-
+https://www.neonscience.org/search?keyword=git
 
 #Tell Git who you are
 git config --global user.name "simhon"
