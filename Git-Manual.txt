@@ -16,6 +16,8 @@ git remote add origin https://github.com/<username>/<repo name>.git
 #Download Github Repo
 git remote add origin https://github.com/<username>/<repo name>.git
 
+--------------------------------------
+
 #Add local files
 git add .
 
