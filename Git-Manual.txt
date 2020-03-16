@@ -13,9 +13,6 @@ git init
 #Link Github Repo to Git
 git remote add origin https://github.com/<username>/<repo name>.git
 
-#Download Github Repo
-git remote add origin https://github.com/<username>/<repo name>.git
-
 --------------------------------------
 
 #Add local files
