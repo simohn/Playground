@@ -1,23 +1,16 @@
 # !/usr/bin/env python
 
-from UDP import UDPHandler
-import numpy as np
+from Master import Master
 import time
 
 def main():
-    udp = UDPHandler()
     
-    img = np.zeros([1920,720,3], np.uint8)
-    img[1,0] = 245
+    m = Master()
     
-    tick = time.time()
-    #udp.writeImg(img)
-    udp.writeDataSerialized(img.tolist())
-    print("Elapsed: " + str(time.time() - tick))
-    
-    #udp.writeString("Image")
-    
-    udp.close()
+    while True:
+        m.work()
+        time.sleep(0.1)
+        
 
 if __name__ == "__main__":
     main()
